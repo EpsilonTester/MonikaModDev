@@ -71,10 +71,10 @@ init 5 python:
                                                             ))
 
 label monika_god:
-    m 1a "[player], do you believe in God?"
-    m 1e "I was never too sure, myself."
-    m 1m "Well, I'm sure I never really questioned it as a kid..."
-    m 1l "But as I grew up, the more I learned about the world, the more I would question it."
+    m 1a "[player], 너 신을 믿어?"
+    m 1e "나도 확신은 없었어."
+    m 1m "글쎄, 난 어렸을 때 절대 의심하지 않았어..."
+    m 1l "하지만 자라면서 세상에 대해 더 많이 알게 되면 알게 될 수록 더 의문이 생길거야."
     m 1i "I started to wonder why God was helping people pass exams, or get over a cold..."
     m "...When there are children who live their lives being sold as sex slaves?"
     m "Or the eight hundred million people who are too poor to even eat."
@@ -123,8 +123,8 @@ init 5 python:
     addEvent(Event(persistent.event_database,eventlabel="monika_bad_day",category=['life'],prompt="Want to hear about my day?",random=True))
 
 label monika_bad_day:
-    m 2e "...Hey, are you having a bad day or anything like that?"
-    m "Sometimes I get frustrated that a normal day can be ruined even by really small things."
+    m 2e "...저기, 무슨 힘든 하루를 보내고 있는거야?"
+    m "가끔씩 난 정말 작은 일들만으로 평범한 하루가 망가질 수 있다는 것에 좌절감을 느껴."
     m 4l "Like if you accidentally say something in a conversation that someone doesn't like."
     m "Or if you start thinking about how awful of a person you used to be five years ago."
     m "Or if you feel worthless for putting off important work and failing to get simple tasks done."
@@ -144,7 +144,7 @@ init 5 python:
     addEvent(Event(persistent.event_database,eventlabel="monika_selfesteem",category=['advice'],prompt="Self-esteem",random=True))
 
 label monika_selfesteem:
-    m 3c "Do you love yourself, [player]?"
+    m 3c "너 자신을 사랑하니, [player]?"
     m 1n "I don't mean in a conceited way."
     m 1c "Like, are you comfortable with who you are?"
     menu:
